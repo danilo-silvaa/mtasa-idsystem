@@ -1,0 +1,19 @@
+<meta>
+    <info author = 'Danilo Modz' />
+    
+    <script src = 'config.lua' type = 'shared' />
+    <script src = 'src/exports.lua' type = 'shared' />
+
+    <script src = 'src/database.lua' type = 'server' />
+    <script src = 'models/accounts.lua' type = 'server' />
+    <script src = 'src/server.lua' type = 'server' />
+
+    <script src = 'src/client.lua' type = 'client' />
+    
+    <export function='getPlayerIdByElement' type='shared'/>
+    <export function='getPlayerElementById' type='shared'/>
+    <export function='getPlayerIdByAccountName' type='shared'/>
+    <export function='getAccountNameById' type='shared'/>
+
+    <min_mta_version server="1.5.4-9.11413" client="1.5.4-9.11413"/>
+</meta>
